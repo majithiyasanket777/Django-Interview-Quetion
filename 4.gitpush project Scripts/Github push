@@ -1,31 +1,42 @@
-create repository
-create folder Dekstope or Open this file on Dekstope 
-cmd open *(check kar lena file ke under hi open kiya haina cmd bhar to nahi kiya naa)
+1.st create repository (git nam)
+2.  This pic(Dekstope) open  D drive  Than open CMD
+3.  in CmD HTTPS link :- git clone  https://github.com/Sanketmajithiya/Django-Interview-Quetion.git 
+4.   New folder ban jaayega D drive me  repository ke name se
+5. woh folder ko open karna :- cd D> hoga woh folder me Ajana hai Tab kar ke Syntax:- D>(folder name) cd Tab karenge to bhi ajayega folder name
+# Commonds
+Ex:- D:\Django-Interview-Quetion>git add .
+2. git commit -m "#"
+3. git push
+
+#---------------------#----------------------#------------------------#----------------
+# create repository
+# create folder Dekstope or Open this file on Dekstope 
+# cmd open *(check kar lena file ke under hi open kiya haina cmd bhar to nahi kiya naa)
 
 # Commonds
 
-1. git init 
-2. git add .
-3. git status(Green me add hojayega)
-4. git commit -m "first commit"
-5. git remote add origin https://github.com/ Sanketmajithiya/OCTA.NET-ALL-T
-ASK.git(ye joo link hai woh apni repository ki )
-6. git push origin master
+# 1. git init 
+# 2. git add .
+# 3. git status(Green me add hojayega)
+# 4. git commit -m "first commit"
+# 5. git remote add origin https://github.com/ Sanketmajithiya/OCTA.NET-ALL-T
+# ASK.git(ye joo link hai woh apni repository ki )
+# 6. git push origin master
 
-Youtube 4.34 sec(how to push code to gitHub) Technical voice
+# Youtube 4.34 sec(how to push code to gitHub) Technical voice
 
-# change branch
-*Ager Branch change karni hai Master to main 
+# # change branch
+# *Ager Branch change karni hai Master to main 
 
-1. git init
-2. git add .
-3. git status
-4. git commit -m "#"
-5. git branch -m master main
-6. git push --set-upstream origin main
-7. git pull origin main --rebase
-8. git status 
-output :-On branch main
-9. git push origin main (stap check also chatGPT)
+# 1. git init
+# 2. git add .
+# 3. git status
+# 4. git commit -m "#"
+# 5. git branch -m master main
+# 6. git push --set-upstream origin main
+# 7. git pull origin main --rebase
+# 8. git status 
+# output :-On branch main
+# 9. git push origin main (stap check also chatGPT)
 
 
