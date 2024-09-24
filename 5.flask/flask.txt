@@ -1,0 +1,113 @@
+# what is flask ?
+:- flask is popular web fram work jo likhA GAYA hai python me ...
+:- flask is a micro web framework for python.
+its mini framework.
+Red Hat,Linked in ,NETFLIX,reddit , python any where,
+ye sari compony  flask ko use karti hai..
+
+Dusre python ke frameworks :-
+1. Django
+2. turbo GEARS
+3. WEB2PY
+4. Dash by ploty
+5. cherrypy
+6. Quart
+7. GEM
+8. FastAPI
+
+why should we learn flask? 
+
+flask gives an ample amount of choice..
+sab ko suppourt karega sare tools ko 
+like:- VS code , jupiter, pycham
+
+flask devlope
+Austalia :-Armin Ronacher April,1 2010 (Jinja2) Template or WSGI(Web server Gateway interface) par Based hai.
+
+Tool kit Werkzeug :- user ki request aati hai user,user ko resopnse dena hai , user ka session menage karna hai 
+
+Jinja2 :- Template,pages user ko dikhayenge woh jinja se 
+karenge..
+
+**Course content:-
+Routers :- Api ko kese route karte hai,user ne url ko call kiya to kese route karke function ko call karvayenge..
+Templates:-
+Request Object :- client request dega request ke objects ko kese managekar sakte hai..
+session Handling :-
+Status Code :- 404 error,202,page note found
+Database connection :-
+
+isme ORM nahi hai ...
+form me by Default validation nahi hai
+
+one Drop At A Time...  jo use karna hai wahi hum package yaa library use karenge
+
+pakage of flasks
+(1) (click):- "Command Line interface creation kit"
+Command line se kuch peramters dena hai woh sab click manage karega
+
+(2) its Dangerous :- user ki deatils sari cookies and tokens me rahegi Dangerous package ki help se ..
+irctc example sare user ki deatils Alag Alag save hogi
+Tickits,journey
+
+(3) Jinja2:-  Website ko Dynamic and resopnsvie bana ni hai (web page bana ne)
+
+(4) markup-safe (Automatic install hoga package) :-
+HTML :- hyper text markup language
+koi bhi text ko <h1> or <b1> escapes 
+
+(5) uper deatils likhi (Werkzeug)
+(Optional) ye Alag se install karne hote hai..
+(6) Blinker:- singnals ko suppourt karna.Ager Hume singnals Data ko process  karna hai to Blinker use.   
+
+(7) python-dotrnv:-  .env se kuch lena hai kisi kaa path lena hai,Data base kaha par pada hai Api kaha par rakhi hai ye sari envirment varibles ke under hoti hai 
+envirment varibles means ke key-values, key-values ki .env file hoti hai function call kiya or install liya to read kar sakte hoo
+
+(8) watchdog:- kisi ne kya kab access kiya kese request aa rahi hai,kya changes huva ye sare watching  ka kaam hai watchdog se  hoga.(moniter file system events.)
+
+TOPICS :-
+(midle where in python)
+**WSGI(Web server Gateway interface)for flask :- 
+
+     request
+client------> Webserver -----> WSGI server -----> flask App
+**(second)step (Data lekar) 
+client<------ Webserver <----- WSGI server <----- flask App
+
+hamari(flaskapp) se Data  WSGI ke pass jayega fir waha se  ye wale client ko esa resopnse dena hai woh WSGI deside karega fir Webserver se client ko resopnse milega (Data).
+
+(2) Werk-zeug  in flask :- meaing werk (kaam) zeug(Tool)
+
+WSGI ki library hai ..
+Advantage:-
+(1) Debugging me help karega (Debugging Tool hai.) 
+(2)request ka object bana kar dega
+(3) client se Header ki values ko pass karna woh bhi Werkzeug karega (Header means client ager request daal raha hai to woh konsa broweser use kar raha hai woh java language ko suppourt to karta haina,woh zip file ko unzip file kar sakta hai kya, woh image ko image me pdf ko pdf me render kar sakta hai naa hamari web site me kaam Header karta hai...........)
+(4) cookies bhi jaa rahi hai usko Werkzeug handle karega
+
+Jinja2 in flask :-
+(1) Dynamic website banane use karte:- uske contant user wise change hojate hai Ex :- Facebook,redbus,irctc..
+
+Base on user information uske base par uska data change karta hai ...
+
+Dynamic website create karne hume logic or Data kaa use karke create kar sakte hai...or
+ek page se hamara data dusre or tisre page me bhi leja sakte hai TemplateEnggiens kaa use karte hai...
+
+** Virtual environment :- woh isliye use karte hai pehle aapne 2 saal pehle kiya tha woh aab aaj latest  stable version use karna chahiye jisse hume advance features mile ...
+first create Virtual environment fir active env uske under folder create karne apne fir usme pakage install kare 
+
+
+from flask import
+flask object (__name__)predefine app ka object create karn
+
+flask run :- (1) python HelloAPP.py #  python and app nu name 
+(2)  vs code  cmd  on power shall off  change
+python folder select 
+Ex:-
+(flask_env) C:\Users\sanke\OneDrive\Desktop\python practice\CRUD ALL\Flask-Framwork\HELLOWORLD> flask run     
+
+
+steps :- CMD
+(1) set FLASK_APP=HelloWorld.py   # jo app ka name hai woh 
+(2) set FLASK_ENV=development
+(3) flask run

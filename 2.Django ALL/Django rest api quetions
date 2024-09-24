@@ -1,0 +1,28 @@
+API :- applications programing interface
+
+Ex :- zomato,Uber,ola  apps use karte hai usme uper map show hota hai usme app se hum order press karte hai to hume pata chalta hai ki woh bhaiya kaha pohche  hai woh google mapps ki api ka use karte hai zomato ne uper setlight to laga nai Rakha to woh 
+ye pehle puchta hai APi ko data de sakte hai ki nahi
+API translate(messanger) kaa kaam karega bich me ager data hoga to dega varna error de dega 
+
+ZOMATO -------- goole map api ------- Google maps(system)
+_______________> _____________ > _________________>
+
+
+EX:- ek new app banay hai usme option aate hai sinup with google sinup with facebook usko jaake ek ek user ko verify naa karna pade iske credentions sahi hai ki nahi woh kaam already goolge or face kaa hai uske data base me stroe kiya huva hi hai to hum easly google ki or face book API se ager woh user accest karta hai to entery de denge yaa nahi to DENIED kar dete hai  ....
+
+
+API KEY :- ek Security code hota hai
+
+ADVANTAGES :- direct user Access nahi payenga app me 
+user data secure rahenga
+2) monitaring unlimted request nahi behj sakte ,correct form me behj sakte hai, illigle Activites nahi kar sakte hai
+3) isse kuch unique projects create kar sakte hai ex:- temprature calculate karen wali api ko use karle use apne project me  intigrate karle...
+
+
+
+*** what is serilazer :- TO Convert  complex data type like query sets and model instances,can be easily render in to json
+
+what is :- 
+
+API MIXING (short form create api so that is api MIXING)
+

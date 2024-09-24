@@ -1,0 +1,154 @@
+"" :- double invoted comma or  '' single invoted comma
+{} :- carly bracis
+[] :- squar bracket
+() :- round bracket0
+
+Q -1 what are the key features of Python?
+Ans:- (1) easy to learn ,(2) object oriented,(3) interpreted (4)  free and open source (5)
+dynamic (6) high level (7) portable (8) extensible (9) readable and  python ko short code language bhi kaha jata hai
+
+
+Q-2 what is python keyword 
+
+Ans:- in python keyword are resver keyword not in function , variable , 
+
+
+like:- true , false, if, else, not, def ,is, for,None,class,from,import
+          
+Q-3 what is  diffrence between list and tuple in python?
+
+Ans:- list are mutable ,[] squar bracket, runtime par insert update, delete karva sakte hai 
+
+
+tuple are immutable,() round bracket,runtime par insert update, delete Nahi karva sakte hai 
+
+Q-4 what are local variable and global variable in python?
+
+Ans:- local:- perticular function ke under hi kaam karega local variable
+
+global:- pure program me globay  access karega work karega 
+
+Q-5 what is list python ?
+
+Ans:- collection hai python ,[]squar bracket, mutable hai,runtime delete,update,insert perform kar sakte , multiple data types add in python
+
+Q-6 what is tuple python ?
+
+Ans:- collection hai python ,() round bracket, immutable hai,runtime delete,update,insert Nahi kar sakte ,multiple data types insertkarva sakte hai .
+
+Q-7 what is dictionary in python ?
+
+Ans:- collection of python , represent {} carly bracis, key value pair combination jisme  key :- mutable and value :- immutable
+
+
+Q-8 what is string And string is mutable or immutable?.
+
+Ans:-  collection of charater that represent text represent "",''single invotedcoma , this is immutable
+
+Q-9 what is type conversion in python?
+
+Ans:- changing from one Data type kisi dusre data type me change kar rahe hai usko  type conversion
+
+
+Q-10 what is diffrence between python arrays and list?
+
+Ans:-  [] represent squar bracket ,arrays size fix hai, immutable hai
+
+[] represent squar bracket, list size fix nahi hoti are ,mutable 
+
+Q-11 what are function ? 
+Ans:- resuble code from python that perform specific task its difine def() keyword
+
+syntex :-  def function name (parameters): #colum
+
+
+Q-12 what is__init__?
+
+its a constuctor in python aumatcally run, isko dunder method bhi kaha jata hai sab se pehle ye excute hoga hamare program me 
+Example deskte hai isme hum :-  
+# constouctor
+# class fruit:
+#     def __init__(self):
+#         print("object created")
+#     def __init__(self):
+#         print("creted by objects")
+
+# objects = fruit()
+
+
+Q-13 what is lamda function? And Example..?
+:- is anomuis function,  jiska name nahi hota woh python ka keyword hai inbuilt (lamda)
+
+syntax arguments: expression
+
+Q-14 how dose brack,pass,continue 
+
+Ans:- brack waha se stop hojayega aage program run nahi hoga ,
+pass waha se woh pass hojega woh attribute se 
+
+contine :- woh itraction ko woh skip kar dega waha se 
+
+
+Q-15 pakages in python 
+
+Ans:- collection of module files 
+
+[]           {}             ()             {}
+list :-|    dict:-     |  tuple:-     |   set:-  
+append,|    get        |  count       |   frozen set (woh mutable hojayega) set
+extend,|    key        |  index       |   add 
+insert,|    value      |              |  
+clear, |    items      |      
+pop,   |    update     |       
+remove,|    pop        |    
+count, |    popitems   |         
+index, |    fromkeys :- price :-20,Book_list['python'  java','php']            
+short  |    setDefault |          
+
+
+string:-
+indexing(-/+)
+len 
+lower
+upper
+title 
+capitalize
+swapcase
+replace
+center
+startwith
+endswith
+strip
+lstrip
+rstrip
+
+
+Q-16 name-mengling concepts inharitance 
+privet public :- __init__ access nahi kar sakte  
+
+protected :- _init_ access kar sakte (class ke under use kar sakte hai (chiled ) class bana kar )
+
+public:- all access kar sakte hai
+
+* What is module
+module :- python file containg statement(iske under multiple classes ,functions,variables unki collection iss Tarike se strore ki Huvi hai) Taaki hume Advantages mil sake joo kaam same kare usko sath me daal sake 
+EX:- All module's
+math :- inbuilt hai python me (arthimatic oprater,pi=3.14)
+time module:- time zone
+random module :-
+datetime :- sab ko ek Jagah par daal diya easily use kar sakte hai
+
+import kara sakte hai easily kahi par bhi hamre project me baar baar functions bana kar defind nahi karoge Directly import kar sakte hoo...
+Another Ex:- (module)
+enacapsulation :- behind the scenes user ko nahi dikhe gaa Hum ne to Direct import kiya  or use kiya 
+>>>>>>>>>>>>>>>>> --------- >>>>>>>>>>>>>>>>
+
+module EX:- math,time,random,module,datetime,abc,copy,decimal,json,os,oprater,time,sys,threding,zipfile,uuid
+
+pakages EX:- pygame,DjangoREST framwork,FastAPI,celery,scrapy
+
+Library :- Numpy,pandas,flask,request,Django,pillow,pytest,Beautiful Soup
+
+Built-in Functions :-len(),sorted,map,filter,reduce,all,zip,sum,min,max,str,type,input,print
+
+User-defined Functions 

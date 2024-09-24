@@ -1,0 +1,53 @@
+Q-1 what is Django ?
+
+Ans :- Django is python web fram work dyanmic web devlopment kar sakte hai
+Django is a high-level Python web framework that enables rapid development of secure and maintainable websites
+
+Q-2 which Architecture pattern follow us.
+
+Ans :- MVT  Architecture follow karta hai .
+
+Q- 3 Explain Django Architecture .
+
+Ans:-  MVT  Architecture  banai jaati hai 
+
+model :- Data base tables model.py banai jaati hai
+View  :- backend controling and server side logic likh te hai . usme 
+
+Template :- Template staince for frontend 
+django ke under frontend user ko show hota hai woh template ki helpse hota hai.  
+
+Q- 4 what are model in Django?
+Ans:- model stance database table hum log  tables deside karte hai  data  base kima deside karte hai uski fileds deside karte hai.
+
+Q-5 what are view in django?
+
+Ans:- views stand karte hai backend ke liye jiski help se model and template hendle kiye jaati hai woh request se kii jaati hai
+
+Q-6 what is django ORM ?
+
+Ans:- ORM  object relational mapping jiski help se hum queries likh te hai jese ex:- All, Get,filter,
+create,save, Delete jo ye sare methods use karte hai woh ORM querise ke liye use karte hai.
+
+Q-7 Define static files and explaine their uses?
+
+Ans:- java ,css ye sari files hai woh static folder ke under create kii jati hai.jiska use apki website ko Resonsive bana naa ,color full banana or java skript kaa use karna
+
+Q-8 what is djnago urls ?
+
+Ans :- jiski helps se apki request particular view  tak pohch ti hai or woh likhi jati hai  APP ke under urls.py file jiski help se view call hota hai
+
+
+Q-9 what is the difference between a project and an app in Django?
+
+Ans :- project ek configuraton process hai jiski help se App ko hendle kiya jata hai and App ke under :- hum server side coding karte hai  templates rakhte hai or hamara view rakhte hai hamare models bhi rakhte hai
+project ke under :- data base configuration karte hai hamari settings configuration karte hai or App URL Configuration karte hai
+
+
+Q-10 what database are supported by Django ?
+
+Ans:-  sare db suport karta hai like. mysql , post gap, nosqal, sqlakami, php myadmin, oracal all data bases are supported but you are  show only data bases list.
+
+Q-11 What's the use of s session framwork?
+
+Ans:- its a use handles of user Activitys  karne , user login hai yaa nahi woh check karta hai, data koi bhi page par access kar sakte hai apko sirf woh data session ke under dal naa hota hai session is serverside work and more sequre and check of user validation ager user login hai to hi usko accesibilty deni hai sari website ki ager user access nahi hai to usko accesibilty nahi milegi session ke under .

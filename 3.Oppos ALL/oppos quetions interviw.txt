@@ -1,0 +1,84 @@
+# inharitnce
+
+inharitnce is mechanism where a new class kii properties and behavior ko exiting class me inharit kar ke access kar sakte hai...
+1 single inharitnce, 2 multiple inha, 3 multi-level, 4 herachical, 5 hybrid inharitnce
+
+example :- 
+          class Animal:
+             def speak(self):
+                pass
+         class Dog(Animal) # inharit Animal class properties
+            def speak(self):
+                 print("Woof!")
+
+# polymorphism(many-forms)
+
+in python method overriding is possibal and supported
+and method overloading are not supported
+
+function overloading :- class name same ,method bhi same  paramiters are different 
+function overRiding :- class name same paramiters are same lekin A ko B me inharit karana...
+
+4 ways to use polymorphism
+1 Duck Typing :- Dynamic type,variable,object  ko resuble 
+2 method overloading
+3 method overRiding
+4 oprater overloading
+
+oprater overloading 
+method overloading
+
+
+# genrater :- aam ki gutli hai woh samgri hai aam ke ped bana ne kii...
+yield statements :-(values in the fly genrate hogi) at the time memoary lega jarror hoi tyare j memoary lega list ke mukable fast hai ager 5crod numbers hai to 
+Leasy hote hai (jarror hoga tab hi kaam karega)
+memoary save karenge or time bhi....
+
+# Decorator:- @ se start likha jayega ek baar create karlo fir usse hamare project me koi bhi function me apply karo automatic modify hojayega woh function hamara....
+# decorator ka use ham kisi bhi function ko modify karne ke liye karte hai
+# example :-
+# @my_decorator
+# def my_function():
+#     pass
+# my_function()  # my_function() function ko modify kar dega my_decorator function
+
+
+
+its a modify function
+it is a function to return  modify function    
+
+
+# constuctor 
+__init__ dunder method bhi kehte hai
+1 parameterrise constouctor EX def __init__(self,name,Age)
+2 default constuctor as (self) arguments lega ye
+its a constuctor in python aumatcally run, isko dunder method bhi kaha jata hai sab se pehle ye excute hoga hamare program me 
+Example deskte hai isme hum :-  
+# constouctor
+# class fruit:
+#     def __init__(self):
+#         print("object created")
+#     def __init__(self):
+#         print("creted by objects")   #Ans:=  creted by objects
+
+# objects = fruit()
+
+# middle where in Django 
+it a class in django cilent sab se pehle hamari web site pe aaye ga request daale direct Django server par jaayegi fir waha se view ko call nahi  hoga direct bich me middlewhere aaye ga ager valid hai to hi aage jaane dega varna mana kar dega aage jaane se 
+setting.py middlewhere me se hum changes yaa delete kare to hamare project me bhi woh chiz work nahi karegi 
+Authentication,timezone,csrf_token,forgotpassword and all etc.....   
+
+
+
+# map fiter, reduce function and Examplesmao
+# map function :- efficency propse ke liye use hota hai ager hume cube kara na hai koi function kaa to baar baar hum nahi likhenge usko ek empty list bana kar usme hi direct rakh denge  
+
+
+behavior :- brack laga sakte hoo,car ko Accesrilate kar sakte hoo..
+
+
+atributes :- colour of the car,Name of the car ,brand of the car
+
+
+
+

@@ -1,0 +1,104 @@
+(DBMS)Data Base management system is a software that used to define,create and maintain a databaseand provides controlled access to the data
+(RDMS-relational) Data ko store karte hai Table ke form me
+
+
+(1) what is Primary Key
+
+pk = unique + Notnull (matlb isko khali nahi chhod sakte)
+
+(2) what is foreign Key
+
+Tables ko Aapse me relate karna hota hai(merge) 
+refers legi primary Key se..
+
+primary table me se delete kare to foregin key table me se automaticaly delete hoga woh uska kaam hai
+
+*(3) Types of joins
+
+Left Outer join/ left join
+Right outer join/right join
+full outer.
+
+ DBMS me squal me do tables yaa usse jyada tables ko use karna hai kuch contant isme or kuch isme or undono ko jod na hai to hum join ka istmal karte hai..
+
+(4) Nested subquery vs correlated subquery
+INNER QUERY:- pehle under query chalegi woh apna result de degi fir Bhar wali query ke har ek ROW se hum Result ko compare karte hai...
+ANS:- OUTER QUERY:- 
+
+*(5) delete, DROP, Truncate :-
+Delete :- Row ko Delete karta hai lekin one by one, 2 ki  can be ROLLBACK kiya to wapas ajayega..
+
+DROP :- ye Basic Structure , Rows sab kuch DELETE kardeta hai And all to karega hi, cannot be rolled back..
+
+Truncate:- Row ko Delete karta hai ek baar me saro ko sabko,cannot be rolled back
+
+
+(6) Group by orderBy:-
+
+GROUP BY :- isme only group banakar usme Aggriget function use kar sakte hai means mujhe sirf HR kaa group chahiye kii sirf employes kaa chahiye Agrriget functions:_MAX,MIN,COUNT,AVG,
+
+ORDER BY :- data ko sort karne me help karta hai Asending me hai ki disending me sirf dekh sakte hai change nahi karsakte...
+
+(7) pattern Matching :- WHERE Name LIKE 'a%' (start name with a latter) 
+WHERE Name LIKE '%a' (END name with a latter)
+WHERE Name LIKE'%a%' ( PURE Name KAHI PAR BHI A aa raha ho)
+WHERE Name LIKE '_a%'(pehla latter kuch bhi ho Dusra A hona chahiye )
+WHERE Name LIKE 'a_%'(pehla latter A hona chahiye uske baad koi bhi hona chahiye)
+WHERE Name LIKE 'a % y'(pehla latter A hona chahiye uske baad  End me y hona chahiye )
+
+(8) find 2nd Highest salary :-
+Ans :- SELECT name , MAX(salary) AS salary FROM employee
+WHERE salary <>[NOT IN] ( SELECT MAX(salary) FROM employee )
+
+(9) triggers :- 3-4 table banaye 1 mai entery karu or baki me Automaticaly run hojaye so This are triggers
+
+(10) Acid properties :-
+Atomicity :- yaa to sari compelte hogi yaa to koi bhi nahi
+
+consistency:- starting se leke and value same honi chahiye
+
+Isolation:- Transactions run concurrently but ek uska serialized version Bhi hona Chahiye ...
+
+Durability:- ek baar save hogaya data to woh permannet hona chahiye ..
+
+(11) varchar vs varchar2:- varchar ANSI(Amrican s) Standard
+varchar2  hai woh oracal ka standerd hai
+
+
+MY SQL QUERIES :-
+1. Select all records from a table:
+ANS:_ SELECT * FROM table_name; 
+
+2. Select specific columns FROM a table:
+ANS:_ SELECT * colume1, colume2  FROM table_name;
+
+3. Select records with a specific condition:
+ANS:_  SELECT * FROM table_name WHERE condition;
+
+4. Select records with multiple conditions (using AND/OR):
+ANS:_  SELECT * FROM table_name WHRE condition 1 AND con2; 
+       SELECT * FROM table_name WHRE condition 1 OR con2; 
+
+5. Use aggregate functions (COUNT, SUM, AVG, MAX, MIN):
+
+ANS:_  SELECT COUNT(*) FROM table_name; 
+       SELECT SUM(colume_name) FROM table_name; 
+       SELECT AVG(colume_name) FROM table_name; 
+       SELECT MAX(colume_name) FROM table_name; 
+       SELECT MIN(colume_name) FROM table_name; 
+
+Q-1 how to fetch Data from Database using Query set ?
+  user.objebcts.all()
+  user.objebcts.filter(name="sanket")
+  user.objebcts.get(id=3) # get yani one by one id ko fatch
+
+
+
+
+
+
+
+
+
+
+
