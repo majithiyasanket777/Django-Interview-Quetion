@@ -95,7 +95,7 @@ Ans:- collection of module files
 
 []           {}             ()             {}
 list :-|    dict:-     |  tuple:-     |   set:-  
-append,|    get        |  count       |   frozen set (woh mutable hojayega) set
+append,|    get        |  count       |   frozen set (woh immutable hojayega, values change nahi kar sakte fir) set is mutable.
 extend,|    key        |  index       |   add 
 insert,|    value      |              |  
 clear, |    items      |      
