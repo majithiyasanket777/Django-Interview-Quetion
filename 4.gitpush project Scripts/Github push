@@ -40,3 +40,15 @@ Ex:- D:\Django-Interview-Quetion>git add .
 # 9. git push origin main (stap check also chatGPT)
 
 
+# upgrade python version 3.8 to 3.12 in Any python3 or python 
+# 1.)  sudo apt update
+
+#  2.) sudo apt install python3.12   <----- Name Any version install you
+
+# 3.) sudo update-alternatives --config python  <------- chose the number which version you want install
+#  python --version
+#   or
+#  python3 --version   output:- 3.12.3
+
+
+
