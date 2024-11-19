@@ -71,7 +71,7 @@
 # make_sound(cat)
 #--------------#------------------#-------------#---------
 
-# mrthod over loading
+# method over loading
 
 # class A:
 #     def show(self):
