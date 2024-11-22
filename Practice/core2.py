@@ -442,7 +442,6 @@ print(cube(2))
 # numbers = list(range(1,101))
 # print(numbers)
 #--------------------#-----------------#-----------------# 
-#--------------------#-----------------#-----------------# 
 # genratore use ek ek value kod  genrate kiya jaa raha hai, store kiya jaa raha hai, and use kiya jaa raha hai 
 # return retruns value and stop programe
 # yield :- object Ata hai Ager next naa laagte hai (pause kar deta hai program to chalega.)
