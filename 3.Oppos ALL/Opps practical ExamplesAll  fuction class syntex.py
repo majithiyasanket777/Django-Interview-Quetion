@@ -1,4 +1,4 @@
-"""what is Attributes :- varivable in class basicaly its Attributes
+"""what is Attributes :- variable in class basicaly its Attributes
 Ex :- name : str = str()
 Ex :- university : str = str()
 
